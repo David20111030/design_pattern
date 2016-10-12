@@ -7,5 +7,6 @@ package com.zhaofeng.builder;
  * Time: 17:39
  * To change this template use File | Settings | File Templates.
  */
-public class Dell {
+public class Dell extends Product {
+
 }

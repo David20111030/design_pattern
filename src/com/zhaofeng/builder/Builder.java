@@ -7,5 +7,16 @@ package com.zhaofeng.builder;
  * Time: 17:39
  * To change this template use File | Settings | File Templates.
  */
-public class Builder {
+public interface Builder {
+    //CUP
+    public void buildCPU();
+
+    //内存
+    public void buildMemory();
+
+    //显卡
+    public void buildDisplayCard();
+
+    //最终产品
+    public Product getFinalResult();
 }
