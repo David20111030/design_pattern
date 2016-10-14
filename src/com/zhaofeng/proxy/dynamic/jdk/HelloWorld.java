@@ -1,4 +1,4 @@
-package com.zhaofeng.proxy.dynamic.java;
+package com.zhaofeng.proxy.dynamic.jdk;
 
 /**
  * Created with IntelliJ IDEA.

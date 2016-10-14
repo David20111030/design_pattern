@@ -7,5 +7,18 @@ package com.zhaofeng.proxy.staticProxy;
  * Time: 9:35
  * To change this template use File | Settings | File Templates.
  */
-public class LogProxy {
+public class LogProxy implements Subject {
+    public LogProxy(Subject r) {
+        super();
+        this.r = r;
+    }
+
+    private Subject r;
+
+    @Override
+    public void doSubject() {
+        System.out.println("log start...");
+        r.doSubject();
+        System.out.println("log end...");
+    }
 }

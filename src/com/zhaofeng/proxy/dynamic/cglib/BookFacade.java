@@ -7,5 +7,6 @@ package com.zhaofeng.proxy.dynamic.cglib;
  * Time: 11:09
  * To change this template use File | Settings | File Templates.
  */
-public class BookFacade {
+public interface BookFacade {
+    public void addBook();
 }

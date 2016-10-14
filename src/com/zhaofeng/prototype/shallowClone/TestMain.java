@@ -1,4 +1,4 @@
-package com.zhaofeng.prototype;
+package com.zhaofeng.prototype.shallowClone;
 
 /**
  * Created with IntelliJ IDEA.

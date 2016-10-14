@@ -8,4 +8,5 @@ package com.zhaofeng.prototype.deepClone;
  * To change this template use File | Settings | File Templates.
  */
 public interface Prototype {
+    public Object clone();
 }

@@ -8,4 +8,9 @@ package com.zhaofeng.proxy.dynamic.cglib;
  * To change this template use File | Settings | File Templates.
  */
 public class TestCglib {
+    public static void main(String[] args) {
+        BookFacadeCglib cglib = new BookFacadeCglib();
+        BookFacadeImpl bookCglib = (BookFacadeImpl) cglib.getInstance(new BookFacadeImpl());
+        bookCglib.addBook();
+    }
 }

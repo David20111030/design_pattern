@@ -7,5 +7,8 @@ package com.zhaofeng.proxy.staticProxy;
  * Time: 9:27
  * To change this template use File | Settings | File Templates.
  */
-public class Subject {
+public interface Subject {
+
+    public void doSubject();
+
 }

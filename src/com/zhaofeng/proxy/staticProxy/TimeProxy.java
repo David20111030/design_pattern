@@ -7,5 +7,19 @@ package com.zhaofeng.proxy.staticProxy;
  * Time: 9:30
  * To change this template use File | Settings | File Templates.
  */
-public class TimeProxt {
+public class TimeProxy implements Subject {
+    private Subject realSubject;
+
+    public TimeProxy(RealSubject r) {
+        super();
+        this.realSubject = r;
+    }
+
+    @Override
+    public void doSubject() {
+        System.out.println("start...");
+        long start = System.currentTimeMillis();
+        realSubject.doSubject();
+        System.out.println("end...costing " + (System.currentTimeMillis() - start) + " ms");
+    }
 }

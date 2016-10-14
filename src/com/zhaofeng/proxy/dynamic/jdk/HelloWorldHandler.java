@@ -1,4 +1,4 @@
-package com.zhaofeng.proxy.dynamic.java;
+package com.zhaofeng.proxy.dynamic.jdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -7,5 +7,9 @@ package com.zhaofeng.proxy.dynamic.cglib;
  * Time: 11:09
  * To change this template use File | Settings | File Templates.
  */
-public class BookFacadeImpl {
+public class BookFacadeImpl implements BookFacade {
+    @Override
+    public void addBook() {
+        System.out.println("新增图书...");
+    }
 }
