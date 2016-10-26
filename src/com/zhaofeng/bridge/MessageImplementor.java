@@ -8,4 +8,5 @@ package com.zhaofeng.bridge;
  * To change this template use File | Settings | File Templates.
  */
 public interface MessageImplementor {
+    public void send(String message,String toUser);
 }

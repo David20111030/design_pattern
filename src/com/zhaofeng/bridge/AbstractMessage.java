@@ -7,5 +7,14 @@ package com.zhaofeng.bridge;
  * Time: 15:02
  * To change this template use File | Settings | File Templates.
  */
-public class AbstractMessage {
+public abstract class AbstractMessage {
+    protected MessageImplementor impl;
+
+    public AbstractMessage(MessageImplementor impl) {
+        this.impl = impl;
+    }
+
+    public void sendMessage(String message, String toUser) {
+        this.impl.send(message, toUser);
+    }
 }
