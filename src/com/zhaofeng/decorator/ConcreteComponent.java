@@ -7,5 +7,9 @@ package com.zhaofeng.decorator;
  * Time: 9:28
  * To change this template use File | Settings | File Templates.
  */
-public class ConcreteComponent {
+public class ConcreteComponent implements Component {
+    @Override
+    public void operation() {
+        System.out.println("init operation...");
+    }
 }

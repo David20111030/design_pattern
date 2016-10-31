@@ -8,4 +8,5 @@ package com.zhaofeng.decorator;
  * To change this template use File | Settings | File Templates.
  */
 public interface Component {
+    public void operation();
 }

@@ -7,5 +7,17 @@ package com.zhaofeng.decorator;
  * Time: 9:37
  * To change this template use File | Settings | File Templates.
  */
-public class ConcreteDecoratorB {
+public class ConcreteDecoratorB extends Decorator {
+    public ConcreteDecoratorB(Component component) {
+        super(component);
+    }
+
+    public void operation() {
+        super.operation();
+        AddedBehavior();
+    }
+
+    public void AddedBehavior() {
+        System.out.println("add behavior");
+    }
 }
