@@ -39,3 +39,5 @@
 ## 6、合成复用原则（Composite Reuse Principle）
 
 原则是尽量使用合成/聚合的方式，而不是使用继承。
+
+ 设计模式所有的博客请参阅：http://www.jianshu.com/users/4232a50cbeb3/latest_articles
