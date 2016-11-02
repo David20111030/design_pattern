@@ -7,5 +7,6 @@ package com.zhaofeng.command;
  * Time: 17:21
  * To change this template use File | Settings | File Templates.
  */
-public class Command {
+public abstract class Command {
+    public abstract void execute();
 }

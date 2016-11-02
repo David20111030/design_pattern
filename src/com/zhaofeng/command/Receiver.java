@@ -8,4 +8,7 @@ package com.zhaofeng.command;
  * To change this template use File | Settings | File Templates.
  */
 public class Receiver {
+    public void doSomething() {
+        System.out.println("接受者-业务逻辑处理");
+    }
 }
