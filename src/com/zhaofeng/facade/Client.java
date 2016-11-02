@@ -8,4 +8,8 @@ package com.zhaofeng.facade;
  * To change this template use File | Settings | File Templates.
  */
 public class Client {
+    public static void main(String[] args) {
+        Facade facade = new Facade();
+        facade.wrapOperation();
+    }
 }

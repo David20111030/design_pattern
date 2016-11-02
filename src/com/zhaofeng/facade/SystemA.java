@@ -8,4 +8,7 @@ package com.zhaofeng.facade;
  * To change this template use File | Settings | File Templates.
  */
 public class SystemA {
+    public void operationA(){
+        System.out.println("operation a...");
+    }
 }
